@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kazuaki Kunimatsu">
+    <meta name="keywords" content="html,css,javascript">
+    <title>Japan Travel Guide</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1 id="top">Japan Travel Guide</h1>
+
+<nav>
+<a href="#spot">観光地</a>　
+<a href="#plan">旅行プラン</a>　
+<a href="#contact">お問い合わせ</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<h2>おすすめ旅行スポット</h2>
+
+<div class="container">
+
+<section>
+
+<h3 id="spot">東京</h3>
+
+<img src="img/tokyo.jpg" alt="東京">
+
+<p>
+東京は日本の首都です。<br>
+ショッピングや観光を楽しめます。
+</p>
+
+</section>
+
+<section>
+
+<h3>京都</h3>
+
+<img src="img/kyoto.jpg" alt="京都">
+
+<p>
+歴史ある寺院や神社が多く、
+日本文化を感じられます。
+</p>
+
+</section>
+
+<section>
+
+<h3>大阪</h3>
+
+<img src="img/osaka.jpg" alt="大阪">
+
+<p>
+たこ焼きやお好み焼きなど、
+グルメが人気です。
+</p>
+
+</section>
+
+<section>
+
+<h3>旅行の持ち物</h3>
+
+<ul>
+
+<li>財布</li>
+
+<li>スマートフォン</li>
+
+<li>充電器</li>
+
+<li>着替え</li>
+
+<li>カメラ</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h3 id="plan">2日間の旅行プラン</h3>
+
+<table>
+
+<caption>旅行予定</caption>
+
+<tr>
+
+<th>日程</th>
+
+<th>午前</th>
+
+<th>午後</th>
+
+<th>夜</th>
+
+</tr>
+
+<tr>
+
+<th>1日目</th>
+
+<td>東京駅</td>
+
+<td>浅草</td>
+
+<td>スカイツリー</td>
+
+</tr>
+
+<tr>
+
+<th>2日目</th>
+
+<td>京都</td>
+
+<td>清水寺</td>
+
+<td>大阪</td>
+
+</tr>
+
+</table>
+
+</section>
+
+</div>
+
+<section>
+
+<h2>旅行サイト</h2>
+
+<p>
+
+<a href="https://www.japan.travel/" target="_blank">
+日本政府観光局（別タブ）
+</a>
+
+</p>
+
+<p>
+
+<a href="#top">
+ページの一番上へ戻る
+</a>
+
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>お問い合わせ</h2>
+
+<button onclick="message()">
+
+クリックしてください
+
+</button>
+
+</section>
+
+</main>
+
+<footer>
+
+copyright &copy; Kazuaki Kunimatsu
+All Rights Reserved
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
