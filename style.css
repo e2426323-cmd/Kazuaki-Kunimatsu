@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Kazuaki Kunimatsu">
+
+    <meta name="keywords" content="html, css, javascript">
+
+    <title>Japan Travel Guide</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1 id="top">Japan Travel Guide</h1>
+
+<nav>
+
+<a href="#spot">観光地</a>
+
+<a href="#ranking">人気ランキング</a>
+
+<a href="#plan">旅行プラン</a>
+
+<a href="#contact">お問い合わせ</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<h2>おすすめ観光スポット</h2>
+
+<img src="img/fuji.jpg" alt="富士山">
+
+<br><br>
+
+<div class="container">
+
+<section>
+
+<h3 id="spot">東京</h3>
+
+<img src="img/tokyo.jpg" alt="東京">
+
+<p>
+
+日本の首都であり、
+
+ショッピング・グルメ・夜景など
+
+様々な観光が楽しめます。
+
+</p>
+
+</section>
+
+<section>
+
+<h3>京都</h3>
+
+<img src="img/kyoto.jpg" alt="京都">
+
+<p>
+
+歴史ある寺院や神社が多く、
+
+日本文化を感じられる人気の都市です。
+
+</p>
+
+</section>
+
+<section>
+
+<h3>大阪</h3>
+
+<img src="img/osaka.jpg" alt="大阪">
+
+<p>
+
+たこ焼きやお好み焼きなど、
+
+グルメの街として有名です。
+
+</p>
+
+</section>
+
+<section>
+
+<h3>富士山</h3>
+
+<img src="img/fuji.jpg" alt="富士山">
+
+<p>
+
+日本一高い山。
+
+四季折々の景色を楽しめます。
+
+</p>
+
+</section>
+
+<section id="ranking">
+
+<h3>人気ランキング</h3>
+
+<ol>
+
+<li>東京</li>
+
+<li>京都</li>
+
+<li>大阪</li>
+
+<li>富士山</li>
+
+</ol>
+
+<h3>旅行の持ち物</h3>
+
+<ul>
+
+<li>財布</li>
+
+<li>スマートフォン</li>
+
+<li>充電器</li>
+
+<li>カメラ</li>
+
+<li>着替え</li>
+
+</ul>
+
+</section>
+
+<section id="plan">
+
+<h3>2日間の旅行プラン</h3>
+
+<table>
+
+<caption>旅行スケジュール</caption>
+
+<tr>
+
+<th>日程</th>
+
+<th>午前</th>
+
+<th>午後</th>
+
+<th>夜</th>
+
+</tr>
+
+<tr>
+
+<th>1日目</th>
+
+<td>東京駅</td>
+
+<td>浅草</td>
+
+<td>東京スカイツリー</td>
+
+</tr>
+
+<tr>
+
+<th>2日目</th>
+
+<td>京都</td>
+
+<td>清水寺</td>
+
+<td>大阪</td>
+
+</tr>
+
+</table>
+
+</section>
+
+</div>
+
+<section>
+
+<h2>おすすめリンク</h2>
+
+<p>
+
+<a href="https://www.japan.travel/" target="_blank">
+
+日本政府観光局（別タブ）
+
+</a>
+
+</p>
+
+<p>
+
+<a href="#top">
+
+ページの一番上へ戻る
+
+</a>
+
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>旅行情報</h2>
+
+<button onclick="message()">
+
+旅行のポイントを見る
+
+</button>
+
+<br><br>
+
+<button onclick="today()">
+
+今日のおすすめスポット
+
+</button>
+
+</section>
+
+</main>
+
+<footer>
+
+copyright &copy;
+
+Kazuaki Kunimatsu
+
+All Rights Reserved
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
