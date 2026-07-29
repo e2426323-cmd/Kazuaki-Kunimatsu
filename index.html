@@ -2,13 +2,19 @@
 <html lang="ja">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="author" content="Kazuaki Kunimatsu">
-    <meta name="keywords" content="html,css,javascript">
+
+    <meta name="keywords" content="html, css, javascript">
+
     <title>Japan Travel Guide</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -18,8 +24,13 @@
 <h1 id="top">Japan Travel Guide</h1>
 
 <nav>
-<a href="#spot">観光地</a>　
-<a href="#plan">旅行プラン</a>　
+
+<a href="#spot">観光地</a>
+
+<a href="#ranking">人気ランキング</a>
+
+<a href="#plan">旅行プラン</a>
+
 <a href="#contact">お問い合わせ</a>
 
 </nav>
@@ -28,7 +39,11 @@
 
 <main>
 
-<h2>おすすめ旅行スポット</h2>
+<h2>おすすめ観光スポット</h2>
+
+<img src="img/fuji.jpg" alt="富士山">
+
+<br><br>
 
 <div class="container">
 
@@ -36,11 +51,16 @@
 
 <h3 id="spot">東京</h3>
 
-<src="img/tokyo.jpg">
+<img src="img/tokyo.jpg" alt="東京">
 
 <p>
-東京は日本の首都です。<br>
-ショッピングや観光を楽しめます。
+
+日本の首都であり、
+
+ショッピング・グルメ・夜景など
+
+様々な観光が楽しめます。
+
 </p>
 
 </section>
@@ -49,11 +69,14 @@
 
 <h3>京都</h3>
 
-<src="img/kyoto.jpg">
+<img src="img/kyoto.jpg" alt="京都">
 
 <p>
+
 歴史ある寺院や神社が多く、
-日本文化を感じられます。
+
+日本文化を感じられる人気の都市です。
+
 </p>
 
 </section>
@@ -62,16 +85,49 @@
 
 <h3>大阪</h3>
 
-<src="img/osaka.jpg">
+<img src="img/osaka.jpg" alt="大阪">
 
 <p>
+
 たこ焼きやお好み焼きなど、
-グルメが人気です。
+
+グルメの街として有名です。
+
 </p>
 
 </section>
 
 <section>
+
+<h3>富士山</h3>
+
+<img src="img/fuji.jpg" alt="富士山">
+
+<p>
+
+日本一高い山。
+
+四季折々の景色を楽しめます。
+
+</p>
+
+</section>
+
+<section id="ranking">
+
+<h3>人気ランキング</h3>
+
+<ol>
+
+<li>東京</li>
+
+<li>京都</li>
+
+<li>大阪</li>
+
+<li>富士山</li>
+
+</ol>
 
 <h3>旅行の持ち物</h3>
 
@@ -83,21 +139,21 @@
 
 <li>充電器</li>
 
-<li>着替え</li>
-
 <li>カメラ</li>
+
+<li>着替え</li>
 
 </ul>
 
 </section>
 
-<section>
+<section id="plan">
 
-<h3 id="plan">2日間の旅行プラン</h3>
+<h3>2日間の旅行プラン</h3>
 
 <table>
 
-<caption>旅行予定</caption>
+<caption>旅行スケジュール</caption>
 
 <tr>
 
@@ -119,7 +175,7 @@
 
 <td>浅草</td>
 
-<td>スカイツリー</td>
+<td>東京スカイツリー</td>
 
 </tr>
 
@@ -143,12 +199,14 @@
 
 <section>
 
-<h2>旅行サイト</h2>
+<h2>おすすめリンク</h2>
 
 <p>
 
 <a href="https://www.japan.travel/" target="_blank">
+
 日本政府観光局（別タブ）
+
 </a>
 
 </p>
@@ -156,7 +214,9 @@
 <p>
 
 <a href="#top">
+
 ページの一番上へ戻る
+
 </a>
 
 </p>
@@ -165,11 +225,19 @@
 
 <section id="contact">
 
-<h2>お問い合わせ</h2>
+<h2>旅行情報</h2>
 
 <button onclick="message()">
 
-クリックしてください
+旅行のポイントを見る
+
+</button>
+
+<br><br>
+
+<button onclick="today()">
+
+今日のおすすめスポット
 
 </button>
 
@@ -179,7 +247,10 @@
 
 <footer>
 
-copyright &copy; Kazuaki Kunimatsu
+copyright &copy;
+
+Kazuaki Kunimatsu
+
 All Rights Reserved
 
 </footer>
